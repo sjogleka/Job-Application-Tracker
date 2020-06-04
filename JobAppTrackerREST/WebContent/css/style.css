@@ -1,0 +1,57 @@
+body {
+	font-family: 'Nunito', sans-serif;
+}
+.row-hover {
+  color: #000;
+  transition: background 0.5s linear;
+  padding-top: 1em;
+}
+.row-hover:hover {
+  background-color: #d1d1d1;
+  transition: background 0.5s linear;
+  color: #fff;
+  cursor: pointer;
+}
+
+hr {
+	margin-bottom: 0;
+}
+
+#brandLogo {
+	padding: 0;
+}
+#brandLogo img {
+	max-height: 2em;
+}
+
+.appResonse {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.detailApp {
+	border: solid 1px rgb(0, 123, 255);
+	border-radius: .25em;
+	margin-top: 1em;
+	background-color: rgba(0, 123, 255, 0.1);
+	max-width: 90%;		
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#interviewRequested {
+	color: rgb(66, 244, 131);
+}
+
+#offerDiv {
+	background-color: rgba(66, 244, 131, 0.3);
+	border: solid 1px rgb(66, 244, 131);
+	border-radius: .25em;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.interviewed {
+	background-color: rgba(66, 244, 131, 0.3);
+}
